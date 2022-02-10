@@ -85,7 +85,7 @@ a {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #cf0063;
-  background-image: linear-gradient(135deg, #dd1173, #350e47);
+  background-image: linear-gradient(315deg, #dd1173, #350e47);
 }
 
 .section.column {
@@ -885,7 +885,8 @@ a {
   position: absolute;
   right: 3vw;
   bottom: 0px;
-  max-width: 90%;
+  width: 55%;
+  max-height: 100%;
   margin-bottom: 0px;
 }
 
@@ -901,7 +902,7 @@ a {
   position: relative;
   z-index: 90;
   width: 55%;
-  padding-right: 10vh;
+  padding-right: 8vh;
   padding-left: 10vw;
 }
 
@@ -1421,6 +1422,15 @@ a {
   max-width: 25%;
 }
 
+.hero-image-contact {
+  position: absolute;
+  right: 3vw;
+  bottom: 0px;
+  width: 55%;
+  max-height: 100%;
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
@@ -1557,6 +1567,20 @@ a {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+  }
+
+  .hero-image-contact {
+    position: relative;
+    left: 0vw;
+    top: auto;
+    right: 0vw;
+    bottom: 0px;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-right: auto;
+    margin-bottom: 7vw;
+    margin-left: auto;
   }
 }
 
@@ -1702,6 +1726,10 @@ a {
     font-size: 34px;
     line-height: 44px;
   }
+
+  .hero-image-contact {
+    margin-bottom: 10vw;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1829,6 +1857,10 @@ a {
 
   .feature-illustration {
     margin-bottom: 20px;
+  }
+
+  .hero-image-contact {
+    width: 80%;
   }
 }
 
