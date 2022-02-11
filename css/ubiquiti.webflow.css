@@ -885,9 +885,10 @@ a {
   position: absolute;
   right: 3vw;
   bottom: 0px;
-  width: 55%;
+  width: 45%;
+  height: auto;
   max-height: 100%;
-  margin-bottom: 0px;
+  margin-bottom: 125px;
 }
 
 .light-blue {
@@ -1218,6 +1219,11 @@ a {
   flex: 1;
 }
 
+.heading-3 {
+  font-size: 8vh;
+  line-height: 8vh;
+}
+
 .utility-page-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1426,9 +1432,14 @@ a {
   position: absolute;
   right: 3vw;
   bottom: 0px;
-  width: 55%;
+  width: 60%;
   max-height: 100%;
   margin-bottom: 0px;
+}
+
+.link-3 {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1492,6 +1503,7 @@ a {
   }
 
   .hero-content {
+    width: 75%;
     padding-right: 5vw;
     padding-left: 5vw;
   }
@@ -1791,6 +1803,10 @@ a {
 
   .hero-image {
     width: 80%;
+  }
+
+  .hero-content {
+    width: 100%;
   }
 
   .feature-wrap {
